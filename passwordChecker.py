@@ -46,4 +46,4 @@ for c in user_password:
 if LOWEST_LENGTH < len(user_password) < HIGHEST_LENGTH and lower_case >= 1 and upper_case >= 1:
     print("Your", len(user_password), "character password is valid:", user_password)
 else:
-    print("Invalid password you dumb fuck")
+    print("Invalid password")
