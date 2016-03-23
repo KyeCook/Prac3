@@ -15,6 +15,7 @@ writing and reading textfiles
 # file = open('name.txt', 'r')
 # names = file.read()
 # print("Your name is", names)
+# file.close()
 
 # --------------- Task 3 -- Reading/adding ----------------
 
@@ -25,6 +26,7 @@ number_2 = lines[1]
 
 total = int(number_1) + int(number_2)
 print(total)
+file.close()
 
 
 
