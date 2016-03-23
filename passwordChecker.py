@@ -26,7 +26,7 @@ for character in user_password:
             numbers += 1
 
 
-if LOWEST_LENGTH < len(user_password) < HIGHEST_LENGTH and lower_case >= 1 and upper_case >= 1 and special_characters \
+if LOWEST_LENGTH <= len(user_password) <= HIGHEST_LENGTH and lower_case >= 1 and upper_case >= 1 and special_characters \
         >= 1 and numbers >= 1:
     print("Your {} character password is valid: {}".format(len(user_password), user_password))
 else:
